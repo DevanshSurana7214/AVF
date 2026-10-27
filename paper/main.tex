@@ -18,6 +18,13 @@
 \renewcommand{\arraystretch}{1.08}
 \usepackage{multirow}
 
+%% Keep the page counter, but remove the default author/submission footer line.
+%% Use the CAS no-logo flag for text-only contact details (no email icon).
+\ExplSyntaxOn
+\cs_gset:Npn \__first_footerline: { }
+\bool_gset_true:N \g_stm_nologo_bool
+\ExplSyntaxOff
+
 %% Graphics path
 \graphicspath{{figures/}}
 
