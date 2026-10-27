@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="270" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 270" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="270"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-270)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="10" y="250" style="font-family: Helvetica; font-size: 13px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,500) scale(1,-1)">AVF minus LightGBM within supported cells</text>
+			<path d="M 45,130 L 705,130 Z" style="stroke: rgb(33%,39%,43%); stroke-linecap: butt; stroke-width: 0.7;"/>
+			<rect x="48" y="99.94863013698634" width="13" height="30.05136986301366" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="51.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">13</text>
+			<text x="48.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="67" y="102.9736328125" width="13" height="27.0263671875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="72.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">8</text>
+			<text x="67.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="86" y="107.5" width="13" height="22.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="91.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">3</text>
+			<text x="86.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="105" y="108.90625" width="13" height="21.09375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="110.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">1</text>
+			<text x="106.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="124" y="112.04787234042553" width="13" height="17.952127659574472" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="127.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">10</text>
+			<text x="124.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="143" y="114.05511811023621" width="13" height="15.944881889763792" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="146.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">15</text>
+			<text x="143.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="162" y="114.33544303797468" width="13" height="15.664556962025316" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="165.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">14</text>
+			<text x="162.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="181" y="119.453125" width="13" height="10.546875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="186.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">4</text>
+			<text x="181.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="200" y="120.16990291262137" width="13" height="9.830097087378633" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="205.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">2</text>
+			<text x="201.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="219" y="120.95360824742268" width="13" height="9.046391752577321" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="224.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">9</text>
+			<text x="220.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="238" y="122.66304347826087" width="13" height="7.3369565217391255" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="243.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">3</text>
+			<text x="239.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="257" y="126.22905027932961" width="13" height="3.7709497206703873" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="260.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">11</text>
+			<text x="258.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="276" y="127.4236641221374" width="13" height="2.576335877862604" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="279.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">11</text>
+			<text x="276.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="295" y="127.67881705639614" width="13" height="2.3211829436038585" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="298.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">12</text>
+			<text x="295.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="314" y="130" width="13" height="0.5" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,47%,16%); fill-rule: evenodd;"/>
+			<text x="319.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">1</text>
+			<text x="314.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="333" y="130" width="13" height="9.375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="338.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">6</text>
+			<text x="334.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="352" y="130" width="13" height="13.235294117647044" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="355.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">11</text>
+			<text x="356.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="371" y="130" width="13" height="14.062500000000028" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="374.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">10</text>
+			<text x="375.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="390" y="130" width="13" height="14.464285714285722" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="393.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">12</text>
+			<text x="391.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="409" y="130" width="13" height="16.071428571428584" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="412.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">15</text>
+			<text x="413.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="428" y="130" width="13" height="17.307692307692292" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="433.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">6</text>
+			<text x="428.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="447" y="130" width="13" height="17.348130841121474" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="450.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">10</text>
+			<text x="448.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="466" y="130" width="13" height="20.425072046109506" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="469.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">12</text>
+			<text x="470.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="485" y="130" width="13" height="22.203947368421098" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="490.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">9</text>
+			<text x="489.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="504" y="130" width="13" height="23.052570990023014" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="509.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">8</text>
+			<text x="505.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="523" y="130" width="13" height="23.49683544303798" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="528.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">9</text>
+			<text x="523.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="542" y="130" width="13" height="25.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="547.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">2</text>
+			<text x="542.5845" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">MCI</text>
+			<rect x="561" y="130" width="13" height="29.851083032490976" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="564.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">14</text>
+			<text x="562.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<rect x="580" y="130" width="13" height="30.46875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="583.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">14</text>
+			<text x="584.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="599" y="130" width="13" height="39.28571428571428" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="604.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">8</text>
+			<text x="603.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="618" y="130" width="13" height="49.79508196721315" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="621.108" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">13</text>
+			<text x="622.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="637" y="130" width="13" height="56.25000000000003" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="642.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">4</text>
+			<text x="641.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="656" y="130" width="13" height="84.375" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="661.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">2</text>
+			<text x="660.473" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">D</text>
+			<rect x="675" y="130" width="13" height="100.0" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(6%,48%,51%); fill-rule: evenodd;"/>
+			<text x="680.054" y="35" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,70) scale(1,-1)">4</text>
+			<text x="676.946" y="23" style="font-family: Helvetica; font-size: 7px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,46) scale(1,-1)">CN</text>
+			<text x="16.768" y="96.25" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,192) scale(1,-1)">-0.10</text>
+			<text x="14.759999999999998" y="130.0" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,260) scale(1,-1)">+0.00</text>
+			<text x="14.759999999999998" y="163.75" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,327) scale(1,-1)">+0.10</text>
+			<text x="14.759999999999998" y="197.5" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,395) scale(1,-1)">+0.20</text>
+			<text x="45" y="5" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,10) scale(1,-1)">Pattern ID and class; 19/34 cells improve; mean delta +0.0358.</text>
+		</g>
+	</g>
+</svg>

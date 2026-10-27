@@ -1,0 +1,17 @@
+\section{Data and problem formulation}\label{sec:data}
+\subsection{Regional-feature cohort}
+The analysis uses 9,566 labelled ADNI episodes from 2,260 participants: 3,849 CN, 3,952 MCI and 1,765 dementia visits. Each episode aligns a diagnosis visit with available regional MRI, FDG, amyloid and tau measurements. The inherited cohort construction links measurements within a 180-day window and marks modalities with excessive feature missingness as absent. These cohort-level rules precede the training-fold feature filtering described below. The cohort is the saved training partition of an earlier subject-grouped split. All results reported here are internal development results on that partition.
+
+The inputs are regional summary tables: structural measurements from UCSF processing and PET summaries from UC Berkeley processing. No voxel volumes, MRI embeddings or image-CNN features enter the model. The mask records the availability of regional features, not the raw images downloaded for a separate image cohort. Naturally incomplete episodes are retained for both learning and evaluation instead of restricting the analysis to complete cases.
+
+\subsection{Joint diagnosis--availability cells}
+Let $x_i^{(k)}$ be the regional block for modality $k$, $m_i^{(k)}\in\{0,1\}$ its availability, and $c_i\in\{0,1,2\}$ the diagnosis. Modality order is MRI, FDG, amyloid, tau. We encode the pattern as
+\begin{equation}
+p_i=8m_i^{(1)}+4m_i^{(2)}+2m_i^{(3)}+m_i^{(4)},\quad p_i\in\{1,\ldots,15\}.
+\end{equation}
+For example, 1010 denotes MRI plus amyloid and has integer code 10. Joint counts $n_{p,c}$ describe up to 45 cells. These cells define a training objective and an evaluation lens, not demographic fairness groups or independent participant samples. Repeated visits remain correlated within participants.
+
+\subsection{Training-fold preprocessing}
+For each modality, feature columns are retained if their missing fraction among available training episodes is at most 0.20. Training-only means and population standard deviations standardize retained values; standard deviations are bounded below by $10^{-6}$. Standardized values are clipped to $[-5,5]$ and missing entries become zero. Per-feature missing indicators are appended. Entire absent modality blocks are zeroed, and four mask bits are appended to the model input. This separates missing values inside an observed block from an unavailable modality. Figure~\ref{fig:architecture}(a) illustrates feature preparation.
+
+Both learners receive availability indicators. The neural mask excludes absent representations from pooling, but the appended bits still allow predictions to depend on acquisition patterns. The pipeline therefore does not establish the removal of availability shortcuts or a causal disease mechanism.

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="280" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 280" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="280"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-280)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="120" y="256" style="font-family: Helvetica; font-size: 13px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,512) scale(1,-1)">Macro F1</text>
+			<text x="71.986" y="222" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">LightGBM</text>
+			<path d="M 120,225 L 209.005706,225 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="217.00570636303115" y="222" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">0.601</text>
+			<text x="76.495" y="197" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,394) scale(1,-1)">Plain NN</text>
+			<path d="M 120,200 L 197.972177,200 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="205.97217686668722" y="197" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,394) scale(1,-1)">0.598</text>
+			<text x="72.751" y="172" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,344) scale(1,-1)">CW + MD</text>
+			<path d="M 120,175 L 207.038701,175 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="215.03870080910548" y="172" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,344) scale(1,-1)">0.601</text>
+			<text x="74.749" y="147" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,294) scale(1,-1)">JW + MD</text>
+			<path d="M 120,150 L 185.427313,150 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="193.4273133358995" y="147" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,294) scale(1,-1)">0.593</text>
+			<text x="54.498999999999995" y="122" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,244) scale(1,-1)">TIMM-inspired</text>
+			<path d="M 120,125 L 212.549189,125 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="220.54918936255814" y="122" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,244) scale(1,-1)">0.603</text>
+			<text x="60.493" y="97" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,194) scale(1,-1)">Flex-inspired</text>
+			<path d="M 120,100 L 225.54721,100 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="233.5472097272849" y="97" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,194) scale(1,-1)">0.607</text>
+			<text x="47.992000000000004" y="72" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,144) scale(1,-1)">UniMIX-inspired</text>
+			<path d="M 120,75 L 226.606444,75 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="234.60644354283275" y="72" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,144) scale(1,-1)">0.608</text>
+			<text x="94.495" y="47" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,94) scale(1,-1)">AVF</text>
+			<path d="M 120,50 L 260.079231,50 Z" style="stroke: rgb(6%,48%,51%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="268.07923148065527" y="47" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,94) scale(1,-1)">0.619</text>
+			<text x="112.216" y="12" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,24) scale(1,-1)">0.57</text>
+			<text x="197.216" y="12" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,24) scale(1,-1)">0.60</text>
+			<text x="282.216" y="12" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,24) scale(1,-1)">0.63</text>
+			<text x="480" y="256" style="font-family: Helvetica; font-size: 13px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,512) scale(1,-1)">Supported-cell recall</text>
+			<text x="431.986" y="222" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">LightGBM</text>
+			<path d="M 480,225 L 562.438509,225 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="570.4385093879803" y="222" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,444) scale(1,-1)">0.568</text>
+			<text x="436.495" y="197" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,394) scale(1,-1)">Plain NN</text>
+			<path d="M 480,200 L 519.318072,200 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="527.318072384156" y="197" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,394) scale(1,-1)">0.543</text>
+			<text x="432.751" y="172" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,344) scale(1,-1)">CW + MD</text>
+			<path d="M 480,175 L 569.466624,175 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="577.4666241472177" y="172" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,344) scale(1,-1)">0.573</text>
+			<text x="434.749" y="147" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,294) scale(1,-1)">JW + MD</text>
+			<path d="M 480,150 L 590.116615,150 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="598.1166154573011" y="147" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,294) scale(1,-1)">0.585</text>
+			<text x="414.499" y="122" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,244) scale(1,-1)">TIMM-inspired</text>
+			<path d="M 480,125 L 559.765224,125 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="567.7652237632316" y="122" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,244) scale(1,-1)">0.567</text>
+			<text x="420.493" y="97" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,194) scale(1,-1)">Flex-inspired</text>
+			<path d="M 480,100 L 555.35448,100 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="563.3544798476827" y="97" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,194) scale(1,-1)">0.564</text>
+			<text x="407.992" y="72" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,144) scale(1,-1)">UniMIX-inspired</text>
+			<path d="M 480,75 L 582.923855,75 Z" style="stroke: rgb(60%,68%,73%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="590.9238551310536" y="72" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,144) scale(1,-1)">0.581</text>
+			<text x="454.495" y="47" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,94) scale(1,-1)">AVF</text>
+			<path d="M 480,50 L 623.239479,50 Z" style="stroke: rgb(6%,48%,51%); stroke-linecap: butt; stroke-width: 8;"/>
+			<text x="631.2394789019767" y="47" style="font-family: Helvetica; font-size: 9px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,94) scale(1,-1)">0.604</text>
+			<text x="472.216" y="12" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,24) scale(1,-1)">0.52</text>
+			<text x="557.2160000000001" y="12" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,24) scale(1,-1)">0.57</text>
+			<text x="642.216" y="12" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,24) scale(1,-1)">0.62</text>
+			<text x="10" y="0" style="font-family: Helvetica; font-size: 8px;fill: rgb(9%,21%,29%); stroke:none;" transform="translate(0,0) scale(1,-1)">Natural availability; pooled grouped-fold predictions after seed averaging. Axes are truncated.</text>
+		</g>
+	</g>
+</svg>

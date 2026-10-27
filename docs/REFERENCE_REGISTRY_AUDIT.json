@@ -1,0 +1,1211 @@
+[
+  {
+    "DOI": "10.1016/j.media.2026.104222",
+    "title": [
+      "Taming arbitrary modality missingness and imbalance: A unified graph-MoE framework for Alzheimer’s disease diagnosis"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-9990-4058",
+        "authenticated-orcid": false,
+        "given": "Guangqian",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3057-1862",
+        "authenticated-orcid": false,
+        "given": "Ye",
+        "family": "Du",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5708-7018",
+        "authenticated-orcid": false,
+        "given": "Xiaowei",
+        "family": "Hu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1805-6884",
+        "authenticated-orcid": false,
+        "given": "Weiyang",
+        "family": "Shi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3863-8187",
+        "authenticated-orcid": false,
+        "given": "Mo",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1495-3278",
+        "authenticated-orcid": false,
+        "given": "Shujun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Medical Image Analysis"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          9
+        ]
+      ]
+    },
+    "volume": "113",
+    "issue": null,
+    "page": "104222",
+    "article-number": "104222",
+    "type": "journal-article",
+    "URL": "https://doi.org/10.1016/j.media.2026.104222",
+    "requested_doi": "10.1016/j.media.2026.104222"
+  },
+  {
+    "DOI": "10.1109/ijcnn64981.2025.11228277",
+    "title": [
+      "TIMM: A Type-Induced Missing-aware Mixture-of-Experts Model for Imputing Missing Modalities"
+    ],
+    "author": [
+      {
+        "given": "Shuwei",
+        "family": "Qian",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Nanjing University,State Key Laboratory for Novel Software Technology, China School of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhicheng",
+        "family": "Fan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanjing University,State Key Laboratory for Novel Software Technology, China School of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qiangqiang",
+        "family": "He",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanjing University,State Key Laboratory for Novel Software Technology, China School of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chongjun",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Nanjing University,State Key Laboratory for Novel Software Technology, China School of Computer Science"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "2025 International Joint Conference on Neural Networks (IJCNN)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          30
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          6,
+          30
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "1-8",
+    "article-number": null,
+    "type": "proceedings-article",
+    "URL": "https://doi.org/10.1109/ijcnn64981.2025.11228277",
+    "requested_doi": "10.1109/IJCNN64981.2025.11228277"
+  },
+  {
+    "DOI": "10.1109/tpami.2015.2461544",
+    "title": [
+      "ModDrop: Adaptive Multi-Modal Gesture Recognition"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7050-2282",
+        "authenticated-orcid": false,
+        "given": "Natalia",
+        "family": "Neverova",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Christian",
+        "family": "Wolf",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Graham",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florian",
+        "family": "Nebout",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          8,
+          1
+        ]
+      ]
+    },
+    "volume": "38",
+    "issue": "8",
+    "page": "1692-1706",
+    "article-number": null,
+    "type": "journal-article",
+    "URL": "https://doi.org/10.1109/tpami.2015.2461544",
+    "requested_doi": "10.1109/TPAMI.2015.2461544"
+  },
+  {
+    "DOI": "10.1038/s42256-020-00257-z",
+    "title": [
+      "Shortcut learning in deep neural networks"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7698-3187",
+        "authenticated-orcid": false,
+        "given": "Robert",
+        "family": "Geirhos",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jörn-Henrik",
+        "family": "Jacobsen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9812-317X",
+        "authenticated-orcid": false,
+        "given": "Claudio",
+        "family": "Michaelis",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Richard",
+        "family": "Zemel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wieland",
+        "family": "Brendel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Matthias",
+        "family": "Bethge",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2592-634X",
+        "authenticated-orcid": false,
+        "given": "Felix A.",
+        "family": "Wichmann",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Nature Machine Intelligence"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          10
+        ]
+      ]
+    },
+    "published-print": null,
+    "volume": "2",
+    "issue": "11",
+    "page": "665-673",
+    "article-number": null,
+    "type": "journal-article",
+    "URL": "https://doi.org/10.1038/s42256-020-00257-z",
+    "requested_doi": "10.1038/s42256-020-00257-z"
+  },
+  {
+    "DOI": "10.1016/j.jalz.2014.11.001",
+    "title": [
+      "2014 Update of the Alzheimer's Disease Neuroimaging Initiative: A review of papers published since its inception"
+    ],
+    "author": [
+      {
+        "given": "Michael W.",
+        "family": "Weiner",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Veterans Affairs Medical Center Center for Imaging of Neurodegenerative Diseases  San Francisco CA USA"
+          },
+          {
+            "name": "Department of Radiology University of California  San Francisco CA USA"
+          },
+          {
+            "name": "Department of Medicine University of California  San Francisco CA USA"
+          },
+          {
+            "name": "Department of Psychiatry University of California  San Francisco CA USA"
+          },
+          {
+            "name": "Department of Neurology University of California  San Francisco CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dallas P.",
+        "family": "Veitch",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Veterans Affairs Medical Center Center for Imaging of Neurodegenerative Diseases  San Francisco CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Paul S.",
+        "family": "Aisen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Neurosciences University of California, San Diego  La Jolla CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laurel A.",
+        "family": "Beckett",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Biostatistics, Department of Public Health Sciences University of California  Davis CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nigel J.",
+        "family": "Cairns",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Knight Alzheimer's Disease Research Center Washington University School of Medicine  Saint Louis MO USA"
+          },
+          {
+            "name": "Department of Neurology Washington University School of Medicine  Saint Louis MO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jesse",
+        "family": "Cedarbaum",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Neurology Early Clinical Development Biogen Idec  Cambridge MA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Robert C.",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Genetics, Department of Medicine Brigham and Women's Hospital and Harvard Medical School  Boston MA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Danielle",
+        "family": "Harvey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Biostatistics, Department of Public Health Sciences University of California  Davis CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Clifford R.",
+        "family": "Jack",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology Mayo Clinic  Rochester MN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "William",
+        "family": "Jagust",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Helen Wills Neuroscience Institute University of California Berkeley  Berkeley CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Johan",
+        "family": "Luthman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Neuroscience Clinical Development, Neuroscience &amp; General Medicine Product Creation Unit Eisai Inc.  Philadelphia PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John C.",
+        "family": "Morris",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Neurosciences University of California, San Diego  La Jolla CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ronald C.",
+        "family": "Petersen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Neurology Mayo Clinic  Rochester MN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Saykin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology and Imaging Sciences Indiana University School of Medicine  Indianapolis IN USA"
+          },
+          {
+            "name": "Department of Medical and Molecular Genetics Indiana University School of Medicine  Indianapolis IN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Leslie",
+        "family": "Shaw",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Pathology and Laboratory Medicine, Perelman School of Medicine University of Pennsylvania  Philadelphia PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Li",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Radiology and Imaging Sciences Indiana University School of Medicine  Indianapolis IN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Adam",
+        "family": "Schwarz",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Tailored Therapeutics Eli Lilly and Company  Indianapolis IN USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arthur W.",
+        "family": "Toga",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Laboratory of Neuroimaging, Institute of Neuroimaging and Informatics Keck School of Medicine of University of Southern California  Los Angeles CA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "John Q.",
+        "family": "Trojanowski",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute on Aging, Perelman School of Medicine University of Pennsylvania  Philadelphia PA USA"
+          },
+          {
+            "name": "Alzheimer's Disease Core Center, Perelman School of Medicine University of Pennsylvania  Philadelphia PA USA"
+          },
+          {
+            "name": "Udall Parkinson's Research Center, Perelman School of Medicine University of Pennsylvania  Philadelphia PA USA"
+          },
+          {
+            "name": "Department of Pathology and Laboratory Medicine, Center for Neurodegenerative Research, Perelman School of Medicine University of Pennsylvania  Philadelphia PA USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "name": "Alzheimer's Disease Neuroimaging Initiative",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Alzheimer's &amp; Dementia"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2015,
+          6
+        ]
+      ]
+    },
+    "volume": "11",
+    "issue": "6",
+    "page": null,
+    "article-number": null,
+    "type": "journal-article",
+    "URL": "https://doi.org/10.1016/j.jalz.2014.11.001",
+    "requested_doi": "10.1016/j.jalz.2014.11.001"
+  },
+  {
+    "DOI": "10.1016/j.neuroimage.2011.01.008",
+    "title": [
+      "Multimodal classification of Alzheimer's disease and mild cognitive impairment"
+    ],
+    "author": [
+      {
+        "given": "Daoqiang",
+        "family": "Zhang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yaping",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Luping",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hong",
+        "family": "Yuan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dinggang",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "NeuroImage"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2011,
+          4
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          4
+        ]
+      ]
+    },
+    "volume": "55",
+    "issue": "3",
+    "page": "856-867",
+    "article-number": null,
+    "type": "journal-article",
+    "URL": "https://doi.org/10.1016/j.neuroimage.2011.01.008",
+    "requested_doi": "10.1016/j.neuroimage.2011.01.008"
+  },
+  {
+    "DOI": "10.1109/tpami.2018.2798607",
+    "title": [
+      "Multimodal Machine Learning: A Survey and Taxonomy"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-7923-8780",
+        "authenticated-orcid": false,
+        "given": "Tadas",
+        "family": "Baltrusaitis",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4396-2050",
+        "authenticated-orcid": false,
+        "given": "Chaitanya",
+        "family": "Ahuja",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6376-7696",
+        "authenticated-orcid": false,
+        "given": "Louis-Philippe",
+        "family": "Morency",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          1
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          1
+        ]
+      ]
+    },
+    "volume": "41",
+    "issue": "2",
+    "page": "423-443",
+    "article-number": null,
+    "type": "journal-article",
+    "URL": "https://doi.org/10.1109/tpami.2018.2798607",
+    "requested_doi": "10.1109/TPAMI.2018.2798607"
+  },
+  {
+    "DOI": "10.1109/tkde.2008.239",
+    "title": [
+      "Learning from Imbalanced Data"
+    ],
+    "author": [
+      {
+        "family": "Haibo He",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "E.A.",
+        "family": "Garcia",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Knowledge and Data Engineering"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2009,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          9
+        ]
+      ]
+    },
+    "volume": "21",
+    "issue": "9",
+    "page": "1263-1284",
+    "article-number": null,
+    "type": "journal-article",
+    "URL": "https://doi.org/10.1109/tkde.2008.239",
+    "requested_doi": "10.1109/TKDE.2008.239"
+  },
+  {
+    "DOI": "10.52202/068431-0037",
+    "title": [
+      "Why Do Tree-Based Models Still Outperform Deep Learning on Typical Tabular Data?"
+    ],
+    "author": [
+      {
+        "given": "Leo",
+        "family": "Grinsztajn",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Edouard",
+        "family": "Oyallon",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Gael",
+        "family": "Varoquaux",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Advances in Neural Information Processing Systems 35"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "507-520",
+    "article-number": null,
+    "type": "proceedings-article",
+    "URL": "https://doi.org/10.52202/068431-0037",
+    "requested_doi": "10.52202/068431-0037"
+  },
+  {
+    "DOI": "10.1109/cvpr.2019.00949",
+    "title": [
+      "Class-Balanced Loss Based on Effective Number of Samples"
+    ],
+    "author": [
+      {
+        "given": "Yin",
+        "family": "Cui",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Cornell Univ."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Menglin",
+        "family": "Jia",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google Brain"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tsung-Yi",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell Univ."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yang",
+        "family": "Song",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Serge",
+        "family": "Belongie",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cornell Univ."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          6
+        ]
+      ]
+    },
+    "volume": null,
+    "issue": null,
+    "page": "9260-9269",
+    "article-number": null,
+    "type": "proceedings-article",
+    "URL": "https://doi.org/10.1109/cvpr.2019.00949",
+    "requested_doi": "10.1109/CVPR.2019.00949"
+  }
+]

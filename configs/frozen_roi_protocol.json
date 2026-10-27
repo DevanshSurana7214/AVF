@@ -1,0 +1,139 @@
+{
+  "scope": "ROI development cohort; exploratory, not fully nested",
+  "cohort": {
+    "episodes": 9566,
+    "participants": 2260,
+    "classes": [
+      "CN",
+      "MCI",
+      "dementia"
+    ],
+    "class_visit_counts": [
+      3849,
+      3952,
+      1765
+    ]
+  },
+  "modalities": [
+    "MRI",
+    "FDG",
+    "amyloid",
+    "tau"
+  ],
+  "pattern_bits": [
+    8,
+    4,
+    2,
+    1
+  ],
+  "split": {
+    "group": "participant",
+    "folds": 3,
+    "split_seed": 624,
+    "fold_visit_counts": [
+      3190,
+      3173,
+      3203
+    ]
+  },
+  "training_seeds": [
+    42,
+    1042,
+    2042
+  ],
+  "preprocessing": {
+    "training_available_missing_fraction_max": 0.2,
+    "population_sd_floor": 1e-06,
+    "z_clip": [
+      -5,
+      5
+    ],
+    "append_missing_flags": true,
+    "append_mask": true
+  },
+  "neural": {
+    "token_dim": 64,
+    "dropout": 0.1,
+    "head_dimensions": [
+      68,
+      64,
+      3
+    ],
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "batch_size": 128,
+    "max_epochs": 30,
+    "patience": 8,
+    "gradient_norm_clip": 1.0,
+    "checkpoint_metric": "validation macro-AUROC (validation reused)"
+  },
+  "weights": {
+    "smoothing": 5,
+    "clip_before_normalization": [
+      0.25,
+      4
+    ],
+    "normalization": "expected example-weighted mean one",
+    "joint_cells": 45
+  },
+  "modality_dropout": {
+    "probability": 0.5,
+    "remove": "one uniformly selected available modality if at least two; singleton retained"
+  },
+  "fusion": {
+    "tree_alpha_per_frozen_fold": {
+      "0": 0.55,
+      "1": 0.6,
+      "2": 0.55
+    },
+    "selected_tau": [
+      0,
+      0,
+      0
+    ],
+    "alpha_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "tau_grid": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.5
+    ],
+    "selection": "other-fold predictions; not fully nested",
+    "prior_smoothing": 20,
+    "probability_clip_floor": 1e-12,
+    "prior_clip_floor": 1e-06
+  },
+  "metrics": {
+    "SCR_support_min_distinct_participants": 20,
+    "supported_natural_cells": 34,
+    "cell_recall": "visit-weighted within cells",
+    "bootstrap": "1000 paired participant resamples; conditional on selected models"
+  },
+  "no_original_outer_validation_or_test_inference": true,
+  "no_claim_of_preregistration": true
+}

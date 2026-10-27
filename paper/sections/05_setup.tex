@@ -1,0 +1,25 @@
+\section{Experimental design}\label{sec:setup}
+\subsection{Shared folds and optimization}
+Three StratifiedGroupKFold partitions (split seed 624) keep every participant's visits in the same fold. The held-out folds contain 3,190, 3,173 and 3,203 episodes from 761, 752 and 747 participants. Training seeds are 42, 1042 and 2042. Each training fold has its own fitted preprocessing. For each episode, we average probabilities across seeds before pooling predictions across folds and computing metrics. F1 is therefore computed from pooled predictions, not averaged across folds or seeds.
+
+LightGBM uses learning rate 0.03, 31 leaves, minimum leaf size 20, feature and bagging fractions 0.8, up to 800 rounds and early stopping after 60 rounds using validation multiclass log loss. Regional networks use AdamW with learning rate $10^{-3}$, weight decay $10^{-2}$, batch size 128, at most 30 epochs, patience eight and gradient norm clipping at one. The best epoch maximizes natural validation macro-AUROC. Neural optimization uses CUDA; trees are CPU fitted. The original outer validation and test episodes are not inferred in this development revision.
+
+\subsection{Factorial controls and comparator adaptations}
+The factorial crosses weighting (none, class, joint) with modality dropout (off, on), yielding six arms. A seventh arm combines dropout with training-time logit adjustment: logits receive $\log[(E_{p,c}+5)/(\sum_d E_{p,d}+15)]$, with no additional sample weights and no offset at inference. Its fixed strength is one. This control is distinct from the optional post-hoc fusion correction.
+
+TIMM-, Flex-MoE- and UniMIX-inspired regional adaptations share a 64-dimensional backbone and eight-expert, top-two routing configurations where applicable. They are trained under the local regional-input budget with their implemented auxiliary objectives. The Flex-style expert bank and curriculum differ from the published method, and the local UniMIX-style graph penalty does not reproduce the original graph-contrastive procedure. These are mechanism comparisons, not official reproductions or comparisons with published headline scores.
+
+\subsection{Metrics and uncertainty}
+Macro-AUROC averages three one-versus-rest AUROCs. Macro-F1 averages per-class F1; balanced accuracy averages class recall. Supported-cell recall (SCR) is
+\begin{equation}
+\operatorname{SCR}=\frac{1}{|\mathcal S|}\sum_{(p,c)\in\mathcal S}
+\frac{\sum_i\mathbb 1[p_i=p,c_i=c,\hat c_i=c]}{\sum_i\mathbb 1[p_i=p,c_i=c]}.
+\end{equation}
+The fixed natural support set $\mathcal S$ contains 34 cells with at least 20 distinct participants. Support is participant-based, but recall within a cell is visit-weighted. SCR is not a worst-cell guarantee and does not cover all sparse cells.
+
+The paired bootstrap samples participants with replacement and retains all their visits. Each resample uses the same participants for every method. We retain the archived 1,000-resample percentile intervals for the primary natural comparison. These intervals condition on the fitted and selected models; training is not rerun, and exploration across the family of models is not accounted for. Point differences are recomputed on the original pooled predictions and can differ slightly from archived bootstrap mean differences.
+
+\subsection{Stress-test restriction and artifact replay}
+Archived experiments include a synthetic drop-one condition, but the replay audit found different effective masks in the factorial and comparator families. Part of the random selection did not use the supplied generator. Those archived predictions cannot support cross-family stress superiority claims. Correctly paired masks require a controlled rerun; relabelling existing predictions would not repair the mismatch. All primary results reported here use natural availability.
+
+The revision reconstructs all natural table rows from archived probabilities without importing training modules or running new inference. It checks episode and label alignment, normalized probabilities, saved subject partitions, fixed cell support and the AVF mixture. It preserves the original experiment records; provenance checks do not establish independent test validity.

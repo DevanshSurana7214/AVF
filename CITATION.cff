@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite this research software and distinguish the exploratory draft from a published article."
+type: software
+title: "AVF: Availability-Aware Fusion under Joint Class and Modality Imbalance"
+version: 0.1.0
+date-released: 2026-10-27
+repository-code: "https://github.com/DevanshSurana7214/AVF"
+url: "https://github.com/DevanshSurana7214/AVF"
+authors:
+  - family-names: Surana
+    given-names: Devansh
+  - family-names: Paul
+    given-names: Rajdeep
+  - family-names: Chatterjee
+    given-names: Sankhadeep
+keywords:
+  - class imbalance
+  - modality imbalance
+  - multimodal learning
+  - regional imaging features
+  - ADNI
+license: MIT

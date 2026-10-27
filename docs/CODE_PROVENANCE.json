@@ -1,0 +1,51 @@
+{
+  "MaskNet": {
+    "original_file": "better_results_bundle/code/run_features.py",
+    "original_file_sha256": "4a1ed25409999448f7486145994e5cfb609caafa979b912d19889d86834edcae",
+    "definition_sha256": "8aa11d5bde41939012ac3cd32fa819e2dd78b53e06cc0e5f32d3b6268b31c4da",
+    "original_start_line": 27,
+    "original_end_line": 36
+  },
+  "drop_one": {
+    "original_file": "better_results_bundle/code/run_features.py",
+    "original_file_sha256": "4a1ed25409999448f7486145994e5cfb609caafa979b912d19889d86834edcae",
+    "definition_sha256": "028f86afb82fe3ce789b9de6357b371c75bdd87202875411f6f4c851a0a82542",
+    "original_start_line": 37,
+    "original_end_line": 43
+  },
+  "make_weights": {
+    "original_file": "better_results_bundle/code/run_features.py",
+    "original_file_sha256": "4a1ed25409999448f7486145994e5cfb609caafa979b912d19889d86834edcae",
+    "definition_sha256": "9938853cf2730989d64cd951c57d610f8157d1a0708cca93c116e5df35e9101e",
+    "original_start_line": 44,
+    "original_end_line": 58
+  },
+  "preprocess": {
+    "original_file": "better_results_bundle/code/dependencies/research_20261024/common.py",
+    "original_file_sha256": "a3014e91f3ea0b5ab6571c4376438a81a36020fb90599998d036f3b07d5661ce",
+    "definition_sha256": "c886194e70486c6b0243bf461579a658c874a2e53a4c4c3d6c043cae8c5b45c0",
+    "original_start_line": 18,
+    "original_end_line": 29
+  },
+  "softmax": {
+    "original_file": "better_results_bundle/code/run_beat_baseline.py",
+    "original_file_sha256": "130445a676e6e34da3bfdf8e7733445b6a8c8d199c8aacdee2356ccd6e84abea",
+    "definition_sha256": "80458fc2a925e8d349ed5437e6d1e1cedb105552951acec589287dd2b0b11540",
+    "original_start_line": 23,
+    "original_end_line": 24
+  },
+  "pbar_mat": {
+    "original_file": "better_results_bundle/code/run_beat_baseline.py",
+    "original_file_sha256": "130445a676e6e34da3bfdf8e7733445b6a8c8d199c8aacdee2356ccd6e84abea",
+    "definition_sha256": "0f305ee56048cb23dc038089457010de32e75ee6cdf5b542429bddc9d27d625e",
+    "original_start_line": 25,
+    "original_end_line": 27
+  },
+  "adjusted": {
+    "original_file": "better_results_bundle/code/run_beat_baseline.py",
+    "original_file_sha256": "130445a676e6e34da3bfdf8e7733445b6a8c8d199c8aacdee2356ccd6e84abea",
+    "definition_sha256": "2d152688c763360e575e61a35a92837fd9dbf006cc0790716a09f6761e158469",
+    "original_start_line": 28,
+    "original_end_line": 31
+  }
+}

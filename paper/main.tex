@@ -1,0 +1,85 @@
+%% Overleaf-ready Elsevier CAS single-column (cas-sc) project.
+%% Elsevier single-column manuscript (CAS Bundle, cas-sc.cls).
+%% Highlights are supplied separately in highlights.txt.
+%%
+%% Compile on Overleaf: upload the whole overleaf_project/ folder as a
+%% project, set the main document to main.tex, compiler pdfLaTeX.
+
+\documentclass[a4paper,fleqn]{cas-sc}
+
+\usepackage[square,numbers,sort&compress]{natbib}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[expansion=false]{microtype}
+%% Crisper tables at reduced zoom: heavier rules + taller rows
+\setlength{\heavyrulewidth}{0.11em}
+\setlength{\lightrulewidth}{0.07em}
+\renewcommand{\arraystretch}{1.08}
+\usepackage{multirow}
+
+%% Graphics path
+\graphicspath{{figures/}}
+
+%% Class shorthand macros
+\newcommand{\CN}{CN}
+\newcommand{\MCI}{MCI}
+\newcommand{\DEM}{Dementia}
+\newcommand{\cmark}{\ensuremath{\checkmark}}
+
+\begin{document}
+\let\WriteBookmarks\relax
+\def\floatpagepagefraction{1}
+\def\textpagefraction{.001}
+
+%% ---------------------------------------------------------------
+%% FRONTMATTER
+%% ---------------------------------------------------------------
+\shorttitle{Availability-Aware Fusion under Joint Class--Modality Imbalance}
+\shortauthors{Surana et~al.}
+
+\title[mode = title]{Availability-Aware Fusion of Regional Imaging Features under Joint Class--Modality Imbalance in ADNI}
+
+\author[1]{Devansh Surana}
+\ead{u24ai074@aid.svnit.ac.in}
+\credit{Conceptualization, Methodology, Software, Investigation,
+Writing -- original draft}
+
+\author[1]{Rajdeep Paul}
+\ead{u24ai089@aid.svnit.ac.in}
+\credit{Software, Validation, Data curation, Visualization}
+
+\author[1]{Sankhadeep Chatterjee}
+\cormark[1]
+\ead{sankhadeep@aid.svnit.ac.in}
+\credit{Supervision, Project administration, Writing -- review \& editing}
+
+\affiliation[1]{organization={Department of Artificial Intelligence,
+Sardar Vallabhbhai National Institute of Technology},
+            city={Surat},
+            postcode={395007},
+            state={Gujarat},
+            country={India}}
+
+\cortext[1]{Corresponding author}
+
+%% ---------------------------------------------------------------
+\begin{abstract}
+Class imbalance in diagnoses and modality imbalance in observed MRI, FDG, amyloid and tau combinations complicate Alzheimer's disease classification from regional imaging features. Balancing diagnoses alone can leave rare diagnosis--availability combinations poorly served. We study this joint class--modality imbalance in a development cohort of 9,566 ADNI visits from 2,260 participants. A controlled factorial experiment separates class weighting, joint class--pattern weighting and modality dropout. Our availability-aware fusion (AVF) combines LightGBM probabilities with those of a joint-weighted masked neural network. Both learners receive regional measurements and explicit availability indicators. Development predictions are pooled across three participant-grouped folds after averaging three training seeds. AVF achieves macro-F1 0.619 and supported-cell recall 0.604, compared with 0.601 and 0.568 for seed-ensembled LightGBM. Paired participant-bootstrap intervals for the differences are [0.010, 0.026] and [0.020, 0.051]. The AUROC difference is small and uncertain: 0.797 versus 0.794. Joint weighting improves cell recall but does not independently dominate discrimination; class-weighted fusion slightly exceeds AVF in macro-F1. Checkpoint selection reuses validation folds, and cross-fold fusion tuning is not fully nested. These results are therefore exploratory development evidence rather than an independent final test. The study supports reporting diagnosis-level and availability-cell performance together when evaluating complementary regional-feature classifiers.
+\end{abstract}
+\begin{keywords}
+Alzheimer's disease \sep ADNI \sep regional imaging features \sep class imbalance \sep modality imbalance \sep missing modalities \sep probability fusion
+\end{keywords}
+\maketitle
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_data_problem}
+\input{sections/04_pipeline}
+\input{sections/05_setup}
+\input{sections/06_results}
+\input{sections/07_discussion}
+\input{sections/08_conclusion}
+\printcredits
+\bibliographystyle{elsarticle-num-names}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,4 @@
+Regional MRI and PET features retain naturally incomplete availability
+Factorial controls separate class weighting and modality dropout
+Joint-balanced fusion improves macro-F1 and supported-cell recall
+AUROC gains remain uncertain and evaluation is developmental

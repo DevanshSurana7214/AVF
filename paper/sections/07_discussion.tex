@@ -1,0 +1,14 @@
+\section{Discussion}
+\subsection{What the results support}
+AVF improves macro-F1 and supported-cell recall in this development evaluation. Joint weighting raises cell recall relative to the plain neural reference but reduces AUROC. Fusion retains strong ranking performance and improves class-level decisions, although its natural AUROC advantage over seed-ensembled LightGBM remains uncertain. The evidence does not support a uniformly superior classifier.
+
+Generic ensembling improves some metrics. The joint-weighted member has the highest SCR among seven tested members, whereas class-weighted fusion yields slightly higher macro-F1 and AUROC. The results are consistent with complementary errors but do not attribute the entire gain causally to joint weighting. Deployment would require a prespecified metric and independent validation of calibration and error costs.
+
+Regional summaries permit studying imbalance without learning voxel representations. The evidence does not establish image-level representation quality, improved raw-image diagnosis or superiority over the original published multimodal systems. Availability awareness here means explicit model inputs and a training design, not immunity to acquisition-policy shortcuts.
+
+\subsection{Limitations and the next validation step}
+The main limitation is model selection within a development evaluation. Checkpoint selection reuses the reported fold, and fusion selection is not fully nested because tuning-fold learners saw target-fold subjects during fitting. Repeated method exploration can further favour the observed configuration \citep{cawley2010selection}. Participant bootstrap intervals quantify conditional sample uncertainty without removing these dependencies. The next evaluation must lock the scope, metric, weighting rule and fusion-selection procedure. All selection must occur within each outer training set, followed by a single evaluation on an untouched outer or external cohort.
+
+Repeated visits increase the number of observations without adding independent participants. SCR excludes cells below the support threshold and weights visits within each retained cell. Larger or more diverse tau and rare-pattern samples could change the conclusions. The analysis also inherits alignment tolerances, regional processing differences and diagnosis uncertainty. It establishes no prospective clinical validity, causal explanation, demographic fairness guarantee or worst-cell guarantee.
+
+The comparator mechanisms are simplified local adaptations, and faithful original implementations or a different training budget may change their rankings. The stress-mask mismatch also prevents interpreting archived cross-family drop-one intervals as robustness evidence. These limitations qualify the reported comparisons; unfavourable controls remain part of the analysis.
