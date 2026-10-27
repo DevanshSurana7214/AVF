@@ -24,6 +24,8 @@
 \cs_gset:Npn \__first_footerline: { \mbox{} }
 \bool_gset_true:N \g_stm_nologo_bool
 \ExplSyntaxOff
+%% No ORCID identifiers are supplied, so suppress the empty template note.
+\RenewDocumentCommand \printorcid {} { }
 
 %% Graphics path
 \graphicspath{{figures/}}
